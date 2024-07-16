@@ -52,7 +52,7 @@ def lele():
 
 @app.route('/home', methods=['GET'])
 def home():
-    return render_template('home.html', mensaje='Hola Mundo')
+    return render_template('home.html', mensaje='Hola Mundo!')
 
 @app.route('/crear', methods=['GET', 'POST'])
 def crear():
